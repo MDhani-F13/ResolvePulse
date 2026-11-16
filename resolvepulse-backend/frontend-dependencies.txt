@@ -1,0 +1,4 @@
+Run from Laravel root; keep the existing Laravel package.json:
+
+npm install react react-dom lucide-react motion jszip
+npm install -D @vitejs/plugin-react @tailwindcss/vite tailwindcss typescript @types/react @types/react-dom

@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Providers;
+
+use App\Repositories\Contracts\TicketRepositoryInterface;
+use App\Repositories\Eloquent\EloquentTicketRepository;
+use Illuminate\Support\ServiceProvider;
+
+class AppServiceProvider extends ServiceProvider
+{
+    /**
+     * Register any application services.
+     * Clean Architecture: Bind Repository Interface to Eloquent implementation.
+     */
+    public function register(): void
+    {
+        $this->app->bind(
+            TicketRepositoryInterface::class,
+            EloquentTicketRepository::class
+        );
+    }
+
+    /**
+     * Bootstrap any application services.
+     */
+    public function boot(): void
+    {
+        //
+    }
+}
