@@ -7,7 +7,7 @@ An enterprise-grade **Support Ticket & SLA Escalation Platform** built with **Cl
 ## 📸 1. Visual Walkthrough & Screenshots
 
 ### 🖥️ Main Incident Operations Dashboard
-![ResolvePulse Incident Operations Dashboard](docs/images/dashboard_mockup.jpg)
+![ResolvePulse Incident Operations Dashboard](doc/images/dashboard_mockup.jpg)
 
 **Key Interface Features:**
 1. **Persona & Role Switcher** (Top Right): Instant switching between **Customer**, **Support Engineer**, and **Lead Admin** to verify permissions and policy boundaries in real time.
@@ -18,7 +18,7 @@ An enterprise-grade **Support Ticket & SLA Escalation Platform** built with **Cl
 ---
 
 ### 🔍 Incident Triage, Escalation & SOC2 Audit Drawer
-![Incident Triage Drawer & SOC2 Audit Trail](docs/images/ticket_drawer_mockup.jpg)
+![Incident Triage Drawer & SOC2 Audit Trail](doc/images/ticket_drawer_mockup.jpg)
 
 **Key Drawer Features:**
 1. **Lifecycle Transition Dropdown**: Guarded status workflow (`Open` $\rightarrow$ `In Progress` $\rightarrow$ `Escalated` $\rightarrow$ `Resolved` $\rightarrow$ `Closed`).
